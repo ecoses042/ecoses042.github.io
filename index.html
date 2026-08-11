@@ -1,0 +1,184 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Biography</title>
+<meta name="author" content="Jiwoo Kum">
+<meta name="description" content="Jiwoo Kum's academic homepage">
+<meta name="keywords" content="NLP, LLM, Jiwoo Kum">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,300;0,400;0,700;1,400&display=swap" rel="stylesheet">
+<style>
+  :root{
+    --text:#333;
+    --muted:#6f6f6f;
+    --link:#004276;
+    --rule:#e4e4e4;
+    --maxw:820px;
+  }
+  *{box-sizing:border-box}
+  html{-webkit-text-size-adjust:100%}
+  body{
+    margin:0;
+    padding:0 20px 80px;
+    font-family:"Lato","Helvetica Neue",Helvetica,Arial,sans-serif;
+    font-size:17px;
+    line-height:1.7;
+    color:var(--text);
+    background:#fff;
+  }
+  .wrap{max-width:var(--maxw);margin:0 auto}
+
+  /* ---------- header ---------- */
+  header{padding:42px 0 18px;text-align:center}
+  header h1{
+    margin:0;
+    font-size:2.1rem;
+    font-weight:700;
+    letter-spacing:.2px;
+  }
+  header h1 a{color:var(--text);text-decoration:none}
+  header h1 a:hover{color:var(--link)}
+  nav{margin-top:10px;font-size:.95rem;color:var(--muted)}
+  nav a{color:var(--link);text-decoration:none}
+  nav a:hover{text-decoration:underline}
+  nav span.sep{margin:0 6px;color:#bbb}
+  hr{
+    border:0;
+    border-top:1px solid var(--rule);
+    margin:22px 0 34px;
+  }
+
+  /* ---------- sections ---------- */
+  h2{
+    font-size:1.35rem;
+    font-weight:700;
+    margin:44px 0 14px;
+    padding-bottom:6px;
+    border-bottom:1px solid var(--rule);
+  }
+  section:first-of-type h2{margin-top:0}
+  a{color:var(--link)}
+  a:hover{text-decoration:underline}
+
+  /* ---------- bio ---------- */
+  .bio{overflow:hidden}
+  .bio img{
+    float:left;
+    width:180px;
+    border-radius:6px;
+    margin:4px 26px 14px 0;
+  }
+  .bio p{margin:0 0 1em}
+
+  ul{margin:0;padding-left:22px}
+  li{margin:6px 0}
+  li .date{font-weight:700}
+
+  footer{
+    margin-top:56px;
+    padding-top:18px;
+    border-top:1px solid var(--rule);
+    font-size:.85rem;
+    color:var(--muted);
+    text-align:center;
+  }
+
+  @media (max-width:600px){
+    body{font-size:16px}
+    header h1{font-size:1.7rem}
+    .bio img{
+      float:none;
+      display:block;
+      margin:0 auto 18px;
+      width:160px;
+    }
+  }
+</style>
+</head>
+<body>
+<div class="wrap">
+
+  <header>
+    <h1><a href="./">Jiwoo Kum</a></h1>
+    <nav>
+      <a href="Jiwoo_Kum_CV.pdf">CV</a>
+      <span class="sep">/</span>
+      <a href="https://sites.google.com/view/ssu-nlp/home" target="_blank" rel="noopener">NLP LAB</a>
+    </nav>
+  </header>
+
+  <hr>
+
+  <section>
+    <h2>Biography</h2>
+    <div class="bio">
+      <img src="images/face.png" alt="Jiwoo Kum">
+      <p>
+        <a href="https://www.linkedin.com/in/jiwookum" target="_blank" rel="noopener">Jiwoo Kum</a>
+        is a M.S. student in the School of
+        <a href="https://sw.ssu.ac.kr/" target="_blank" rel="noopener">Software</a>
+        at Soongsil University. He is currently conducting research at the
+        <a href="https://sites.google.com/view/ssu-nlp/home" target="_blank" rel="noopener">Natural Language Processing Lab</a>.
+        His research interests include natural language processing (NLP) and large language models (LLMs),
+        with a particular focus on understanding and analyzing the internal mechanisms and behaviors of LLMs.
+        His current research explores the interpretability and analysis of large language models.
+        For more details, please see his <a href="Jiwoo_Kum_CV.pdf">CV</a>.
+      </p>
+    </div>
+  </section>
+
+  <section>
+    <h2>Research Interests</h2>
+    <ul>
+      <li>Large Language Models (LLMs)</li>
+      <li>LLM Interpretability</li>
+      <li>Small Language Models (SLMs)</li>
+      <li>Multi Agent System (MAS)</li>
+    </ul>
+  </section>
+
+  <section>
+    <h2>Education</h2>
+    <ul>
+      <li>
+        <span class="date">2027.03 - 2028.08 (Expected)</span>:
+        M.S. in <a href="https://sw.ssu.ac.kr/" target="_blank" rel="noopener">Software</a>, Soongsil University
+        (Advisor: <a href="https://parkchanjun.github.io/" target="_blank" rel="noopener">Prof. Chanjun Park</a>)
+      </li>
+      <li>
+        <span class="date">2021.03 - 2027.02 (Expected)</span>:
+        B.S. in <a href="https://sw.ssu.ac.kr/" target="_blank" rel="noopener">Software</a>, Soongsil University
+        (Advisor: <a href="https://parkchanjun.github.io/" target="_blank" rel="noopener">Prof. Chanjun Park</a>)
+      </li>
+    </ul>
+  </section>
+
+  <section>
+    <h2>Work Experiences</h2>
+    <ul>
+      <li>
+        <span class="date">2025.11 - Now</span>:
+        <a href="https://sites.google.com/view/ssu-nlp/home" target="_blank" rel="noopener">Natural Language Processing Lab</a>,
+        Soongsil University, Research Assistant
+      </li>
+    </ul>
+  </section>
+
+  <section>
+    <h2>Additional Links</h2>
+    <ul>
+      <li><a href="https://creator40937.tistory.com/" target="_blank" rel="noopener">Blog Link</a>.</li>
+      <li><a href="https://scholar.google.com/citations?user=ywx-3wgAAAAJ&amp;hl=ko" target="_blank" rel="noopener">Google Scholar</a>.</li>
+    </ul>
+  </section>
+
+  <footer>
+    &copy; Jiwoo Kum
+  </footer>
+
+</div>
+</body>
+</html>
