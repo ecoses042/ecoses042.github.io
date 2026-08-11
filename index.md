@@ -19,7 +19,7 @@ layout: default
 
 * **2027.03 - 2028.08 (Expected)**: M.S. in <a href="https://sw.ssu.ac.kr/">Software</a>, Soongsil University (Advisor: <a href="https://parkchanjun.github.io/">Prof. Chanjun Park</a>)<br>
 * **2021.03 - 2027.02 (Expected)**: B.S. in <a href="https://sw.ssu.ac.kr/">Software</a>, Soongsil University (Advisor: <a href="https://parkchanjun.github.io/">Prof. Chanjun Park</a>)<br>
-* **2022.01 - 2022.05, 2023.11 - 2024.05**: <a href="https://42seoul.kr/">École 42 Seoul</a> — La Piscine (Cohort 31), Cadet (not completed)<br>
+* **2022.01 - 2022.05, 2023.11 - 2024.05**: <a href="https://42seoul.kr/">École 42 Seoul</a><br>
 
 ## Work Experiences
 
