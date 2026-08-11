@@ -23,7 +23,7 @@ layout: default
 
 ## Work Experiences
 
-* **2025.11 - Now**: <a href="https://sites.google.com/view/ssu-nlp/home">Natural Language Processing Lab</a>, Soongsil University, Research Assistant <br>
+* **2025.09 - Now**: <a href="https://sites.google.com/view/ssu-nlp/home">Natural Language Processing Lab</a>, Soongsil University, Research Assistant <br>
 
 ## Additional Links
 
