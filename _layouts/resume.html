@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+  {% include head.html %}
+
+  <body>
+    <div class="wrapper" itemscope itemtype="https://schema.org/Person">
+      <header class="navbar container">
+        <a id="author-name" class="pull-left" href="{{ '/' | relative_url }}" itemprop="url">
+          <span itemprop="name">{{ site.resume_name }}</span>
+        </a>
+
+        <nav class="pull-right" aria-label="Primary navigation">
+          <ul id="navlist" class="navbar-ul">
+            {% for item in site.researcher_nav %}
+              <li class="nav-list">
+                <a href="{{ item.link }}"{% if item.external %} target="_blank" rel="noopener noreferrer"{% endif %}>{{ item.name }}</a>
+              </li>{% unless forloop.last %}<li class="nav-separator" aria-hidden="true">/</li>{% endunless %}
+            {% endfor %}
+          </ul>
+        </nav>
+      </header>
+
+      <div class="clear"></div>
+      <hr>
+
+      <main class="container content">
+        <section aria-labelledby="biography-heading">
+          <h2 id="biography-heading">Biography</h2>
+
+          {% if site.resume_avatar == 'true' %}
+            <img class="profile-picture" src="{{ '/images/face.png' | relative_url }}" alt="Portrait of {{ site.resume_name }}" itemprop="image">
+          {% endif %}
+
+          <div itemprop="description">
+            {{ site.resume_header_intro }}
+          </div>
+        </section>
+
+        {% if site.resume_section_experience %}
+          <section aria-labelledby="experience-heading">
+            <h2 id="experience-heading">Work Experiences</h2>
+            <ul>
+              {% for job in site.data.experience %}
+                <li itemprop="worksFor" itemscope itemtype="https://schema.org/Organization">
+                  <strong>{{ job.duration }}</strong>:
+                  <span itemprop="name">{{ job.company }}</span>,
+                  <span itemprop="description">{{ job.position }}</span>
+                  {% if job.summary %}<div class="item-summary">{{ job.summary }}</div>{% endif %}
+                </li>
+              {% endfor %}
+            </ul>
+          </section>
+        {% endif %}
+
+        {% if site.resume_section_education %}
+          <section aria-labelledby="education-heading">
+            <h2 id="education-heading">Education</h2>
+            <ul>
+              {% for education in site.data.education %}
+                <li itemprop="alumniOf" itemscope itemtype="https://schema.org/CollegeOrUniversity">
+                  <strong>{{ education.year }}</strong>:
+                  {{ education.degree }}, <span itemprop="name">{{ education.uni }}</span>
+                  {% if education.award %}<div class="item-summary">{{ education.award }}</div>{% endif %}
+                  {% if education.summary %}<div class="item-summary">{{ education.summary }}</div>{% endif %}
+                </li>
+              {% endfor %}
+            </ul>
+          </section>
+        {% endif %}
+
+        <section aria-labelledby="research-heading">
+          <h2 id="research-heading">Research Interests</h2>
+          <p>Large Language Models, LLM Interpretability, Small Language Models, and Knowledge Distillation.</p>
+        </section>
+
+        <section aria-labelledby="links-heading">
+          <h2 id="links-heading">Links</h2>
+          <p>
+            Please see my <a href="{{ site.resume_social_links.resume_cv_pdf_url }}">CV</a>,
+            <a href="{{ site.resume_social_links.resume_github_url }}">GitHub</a>,
+            <a href="{{ site.resume_social_links.resume_linkedin_url }}">LinkedIn</a>,
+            or <a href="mailto:{{ site.resume_contact_email }}" itemprop="email">contact me by email</a>.
+          </p>
+        </section>
+      </main>
+    </div>
+  </body>
+</html>

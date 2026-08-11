@@ -4,9 +4,9 @@ layout: default
 
 ## Biography
 
-<img class="profile-picture" src="profile.png">
+<img class="profile-picture" src="images/face.png" alt="Minsoo Song">
+<a href="https://www.linkedin.com/in/minsoo-song-62a3b9230/">Minsoo Song</a> is a M.S. student in the School of <a href="https://sw.ssu.ac.kr/">Software</a> at Soongsil University. He is currently conducting research at the <a href="https://sites.google.com/view/ssu-nlp/home">Natural Language Processing Lab</a>. His research interests include natural language processing (NLP) and large language models (LLMs), with a particular focus on how such models should be evaluated and how their behavior can be aligned with human intent and preferences. His current research explores evaluation methodology, human alignment, and the interpretability of large language models. For more details, please see his <a href="./Minsoo_Song_CV.pdf">CV</a>.
 
-[Minsoo Song](https://www.linkedin.com/in/minsoo-song-62a3b9230/) is a M.S. student in the School of [Software](https://sw.ssu.ac.kr/) at Soongsil University. He is currently conducting research at the [Natural Language Processing Lab](https://sites.google.com/view/ssu-nlp/home). His research interests include natural language processing (NLP) and large language models (LLMs), with a particular focus on how such models should be evaluated and how their behavior can be aligned with human intent and preferences. His current research explores evaluation methodology, human alignment, and the interpretability of large language models. For more details, please see his [CV](Minsoo_Song_CV.pdf).
 
 ## Research Interests
 
@@ -17,15 +17,15 @@ layout: default
 
 ## Education
 
-* **2027.03 - 2028.08 (Expected)**: M.S. in [Software](https://sw.ssu.ac.kr/), Soongsil University (Advisor: [Prof. Chanjun Park](https://parkchanjun.github.io/))
-* **2021.03 - 2027.02 (Expected)**: B.S. in [Software](https://sw.ssu.ac.kr/), Soongsil University (Advisor: [Prof. Chanjun Park](https://parkchanjun.github.io/))
+* **2027.03 - 2028.08 (Expected)**: M.S. in <a href="https://sw.ssu.ac.kr/">Software</a>, Soongsil University (Advisor: <a href="https://parkchanjun.github.io/">Prof. Chanjun Park</a>)<br>
+* **2021.03 - 2027.02 (Expected)**: B.S. in <a href="https://sw.ssu.ac.kr/">Software</a>, Soongsil University (Advisor: <a href="https://parkchanjun.github.io/">Prof. Chanjun Park</a>)<br>
 
 ## Work Experiences
 
-* **2025.11 - Now**: [Natural Language Processing Lab](https://sites.google.com/view/ssu-nlp/home), Soongsil University, Research Assistant
+* **2025.11 - Now**: <a href="https://sites.google.com/view/ssu-nlp/home">Natural Language Processing Lab</a>, Soongsil University, Research Assistant <br>
 
 ## Additional Links
 
-* [Google Scholar](https://scholar.google.com/citations?user=G-G5t0AAAAAJ&hl=ko)
-* [LinkedIn](https://www.linkedin.com/in/minsoo-song-62a3b9230/)
-* [Email](mailto:minsoosong0622@gmail.com)
+* <a href="https://scholar.google.com/citations?user=G-G5t0AAAAAJ&hl=ko">Google Scholar</a>.
+* <a href="https://www.linkedin.com/in/minsoo-song-62a3b9230/">LinkedIn</a>.
+* <a href="mailto:minsoosong0622@gmail.com">Email</a>.
