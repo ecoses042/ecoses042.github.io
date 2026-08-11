@@ -2,3 +2,9 @@ _site
 .sass-cache
 .DS_Store
 _vendor
+
+# LaTeX build artifacts
+*.aux
+*.log
+*.out
+*.synctex.gz

@@ -1,0 +1,184 @@
+%==============================================================
+%  Minsoo Song — Curriculum Vitae
+%
+%  구성과 서식은 goldi1204.github.io 의 CV를 그대로 따랐습니다.
+%  Research Projects 는 본인 이력과 동일하다는 확인을 받아 그대로 옮겼습니다.
+%  나머지 개인 이력(연구목표 문단, GPA, 특허 등)은 옮기지 않았습니다.
+%  → 아래 "TODO" 주석이 붙은 곳만 채우면 됩니다.
+%
+%  컴파일:  xelatex cv.tex   (두 번 실행)
+%    과제명에 한글이 들어가므로 pdflatex 로는 컴파일되지 않습니다. XeLaTeX을 쓰세요.
+%    Overleaf 사용 시: Menu > Compiler > XeLaTeX
+%  완성 후: Minsoo_Song_CV.pdf 로 이름 바꿔 저장소 루트에 두면 홈페이지 CV 링크가 연결됩니다.
+%==============================================================
+
+\documentclass[10pt,a4paper]{article}
+
+% --- 한글 조판 -------------------------------------------------
+% kotex 이 설치돼 있으면 그것을, 없으면 xeCJK + Noto 폰트를 씁니다.
+% 폰트가 없다고 하면 아래 폰트명을 시스템에 있는 것(예: Malgun Gothic)으로 바꾸세요.
+\usepackage{iftex}
+\newcommand{\krfont}{}           % kotex 환경에서는 폰트 전환 없이 그대로
+\newcommand{\kr}[1]{{\krfont #1}}
+\IfFileExists{kotex.sty}{%
+    \usepackage{kotex}%
+}{%
+    \ifXeTeX
+        \usepackage{fontspec}
+        \newfontfamily\notoserifkr{Noto Serif CJK KR}
+        \let\krfont\notoserifkr
+    \fi
+}
+\ifXeTeX\else\usepackage[T1]{fontenc}\fi
+% ---------------------------------------------------------------
+
+\usepackage{geometry}
+\geometry{left=1in, right=1in, top=1in, bottom=1in}
+\usepackage{enumitem}
+\usepackage{hyperref}
+\usepackage{titlesec}
+\usepackage{xcolor}
+\usepackage{graphicx}
+
+\titleformat{\section}{\large\bfseries}{}{0em}{}[\titlerule]
+
+\newcommand{\seclabel}[1]{\section*{\uppercase{#1}}}
+\newcommand{\cvitem}[2]{\textbf{#1} \hfill \small{#2}\\}
+
+\hypersetup{
+    colorlinks=true,
+    linkcolor=cyan,
+    filecolor=cyan,
+    urlcolor=cyan,
+    citecolor=cyan
+}
+
+\setlist[itemize]{leftmargin=0pt}
+\setlist[enumerate]{leftmargin=0pt}
+
+\begin{document}
+
+%--------------------------------------------------------------
+%  HEADER
+%--------------------------------------------------------------
+\noindent
+\begin{center}
+    \textbf{\Huge{Minsoo Song}} \\ \vspace{1.0em}
+    M.S. Student \\
+    Soongsil University \\
+    School of Software \\
+    \textbf{Email: }\href{mailto:minsoosong0622@gmail.com}{minsoosong0622@gmail.com} \\
+    \textbf{Home: }\href{https://ecoses042.github.io/}{https://ecoses042.github.io/} \\
+    \textbf{LinkedIn: }\href{https://www.linkedin.com/in/minsoo-song-62a3b9230/}{www.linkedin.com/in/minsoo-song-62a3b9230}
+\end{center}
+
+\vspace{1em}
+
+%--------------------------------------------------------------
+%  LIFELONG RESEARCH OBJECTIVE
+%  TODO: 장기적으로 이루고 싶은 연구 목표를 2~4문장으로. (본인 문장으로 작성)
+%--------------------------------------------------------------
+\seclabel{Lifelong Research Objective}
+\small{\mbox{}}
+
+%--------------------------------------------------------------
+%  RESEARCH INTERESTS
+%  아래는 홈페이지에 적힌 관심 분야를 문단으로 풀어 쓴 초안입니다. 자유롭게 고치세요.
+%--------------------------------------------------------------
+\seclabel{Research Interests}
+\small{My research interests center on the evaluation of large language models and their alignment with
+human intent. I study how model capabilities can be measured in ways that are reliable and meaningful,
+and how evaluation signals relate to what people actually value in model behavior. I am also interested in
+interpretability as a route to these questions, since understanding a model's internal mechanisms
+offers a basis for explaining why it behaves as it does and for aligning that behavior more
+deliberately.}
+
+%--------------------------------------------------------------
+%  EDUCATION
+%--------------------------------------------------------------
+\seclabel{Education}
+\begin{itemize}
+    \item \cvitem{Soongsil University}{Mar. 2027 - Aug. 2028 (Expected)}
+    \small{M.S. in Software (advisor: Chanjun Park) \\
+    Lab: \href{https://sites.google.com/view/ssu-nlp/home}{https://sites.google.com/view/ssu-nlp/home}}
+
+    \item \cvitem{Soongsil University}{Mar. 2021 - Feb. 2027 (Expected)}
+    % TODO: GPA. 안 적을 거면 아래 GPA 줄을 지우세요.
+    \small{B.S. in Software (advisor: Chanjun Park) \\
+    GPA: \mbox{}}
+
+    \item \cvitem{École 42 Seoul}{Jan. 2022 - May 2022, Nov. 2023 - May 2024}
+    \small{\mbox{}}
+\end{itemize}
+
+%--------------------------------------------------------------
+%  WORK EXPERIENCE
+%  홈페이지의 Work Experiences 항목. 참고한 CV에는 없는 섹션이니 불필요하면 통째로 지우세요.
+%--------------------------------------------------------------
+\seclabel{Work Experience}
+\begin{itemize}
+    \item \cvitem{Soongsil University}{Sep. 2025 - Present}
+    \small{Research Assistant \\
+    \href{https://sites.google.com/view/ssu-nlp/home}{Natural Language Processing Lab}}
+\end{itemize}
+
+\newpage
+
+%--------------------------------------------------------------
+%  PUBLICATIONS
+%  TODO: 논문이 생기면 아래 형식으로 추가. 본인 이름은 \underline{} 로 감쌉니다.
+%--------------------------------------------------------------
+\seclabel{Publications}
+\textit{Equal contribution}: *, \textit{Corresponding author}: $\dagger$
+\vspace{0.4em} \\
+\noindent\textit{Google Scholar}: \href{https://scholar.google.com/citations?user=G-G5t0AAAAAJ&hl=ko}{https://scholar.google.com/citations?user=G-G5t0AAAAAJ}
+
+% \begin{enumerate}
+%     \item \small{\textbf{논문 제목} \\
+%     저자1, \underline{Minsoo Song}, 저자3 \\
+%     \textit{학회명, 연도}}
+% \end{enumerate}
+
+\newpage
+
+%--------------------------------------------------------------
+%  RESEARCH PROJECTS
+%--------------------------------------------------------------
+\seclabel{Research Projects}
+\textbf{Soongsil University}
+\begin{itemize}
+    \item \small{\kr{2026년 인공지능 말평 운영 및 연계 행사 개최 (2026, 참여연구자(PM) (용역과제), National Institute of the Korean Language)}}
+    \item \small{\kr{2026년 인공지능의 한국어 능력 표준 평가 과제 구축 및 활용 (2026, 참여연구자 (용역과제), National Institute of the Korean Language)}}
+    \item \small{\kr{우수연구 신진연구 (유형B) (2026-2029, 참여연구자 (3책5공), NRF)}}
+    \item \small{\kr{Foundation Model 운용과정에서 민감정보 추론 방지 및 리스크 평가 기술 개발 (2026-2028, 참여연구자 (3책5공), Korea Internet \& Security Agency (한국인터넷진흥원))}}
+    \item \small{\kr{토론과 소통으로 지식을 연결하는 AI 에이전트 기술 개발 (2026-2028, 참여연구자 (3책5공), Korea Creative Content Agency (한국콘텐츠진흥원))}}
+    \item \small{\kr{AI 보안 특화 ‘AI 에이전트’ 개발 선행 연구 (2026, 참여연구자 (용역과제), 한국정보보호학회 산하 AI보안연구회)}}
+    \item \small{\kr{국가 · 공공기관 가이드라인 준수를 위한 AI 시스템 보안 위협 자동화 기술점검 도구 개발 (2026, 참여연구자, KIST)}}
+    \item \small{\kr{AI 연구용 컴퓨팅 지원 프로젝트 (파라미터 수준의 정보 제어 원천기술 연구 및 파라미터 스튜디오 플랫폼 개발) (2026, 참여연구자, KETI)}}
+\end{itemize}
+
+%--------------------------------------------------------------
+%  RESEARCH GRANTS/FELLOWSHIPS
+%  TODO: 해당 사항이 없으면 이 섹션을 지우세요.
+%--------------------------------------------------------------
+\seclabel{Research Grants/Fellowships}
+\textbf{Research Grants}
+\begin{itemize}
+    % \item \small{그랜트명 (연도)}
+    \item \small{\mbox{}}
+\end{itemize}
+
+%--------------------------------------------------------------
+%  PATENTS
+%  TODO: 해당 사항이 없으면 이 섹션을 지우세요.
+%--------------------------------------------------------------
+\seclabel{Patents}
+\textbf{Domestic Patent Applications}
+\begin{itemize}
+    % \item \small{\textbf{특허 제목} \\
+    % 발명자 목록 \\
+    % Korean Patent Application, filed on 날짜 (Application No. 번호).}
+    \item \small{\mbox{}}
+\end{itemize}
+
+\end{document}
