@@ -1,0 +1,28 @@
+title: Minsoo Song
+author: Minsoo Song
+description: "Minsoo Song's academic homepage — M.S. student at Soongsil University, NLP Lab. LLM evaluation, human alignment, and interpretability."
+url: "https://ecoses042.github.io"
+baseurl: ""
+
+profile_picture: "https://ecoses042.github.io/profile.png"
+og_image: "https://ecoses042.github.io/profile.png"
+
+markdown: kramdown
+
+tracking_id: #
+
+footer: yes
+footer_url: "https://github.com/ecoses042"
+footer_text: "Page design by Ankit Sultana"
+
+sass:
+    style: compressed
+    sass_dir: _sass
+
+nav:
+ - name: "About"
+   link: "/"
+ - name: "CV"
+   link: "Minsoo_Song_CV.pdf"
+ - name: "NLP LAB"
+   link: "https://sites.google.com/view/ssu-nlp/home"
