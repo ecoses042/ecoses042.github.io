@@ -28,4 +28,3 @@ layout: default
 
 * <a href="https://scholar.google.com/citations?user=G-G5t0AAAAAJ&hl=ko">Google Scholar</a>.
 * <a href="https://www.linkedin.com/in/minsoo-song-62a3b9230/">LinkedIn</a>.
-* <a href="mailto:minsoosong0622@gmail.com">Email</a>.
