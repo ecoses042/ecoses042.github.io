@@ -15,6 +15,16 @@ layout: default
 * Human Alignment in LLMs
 * LLM Interpretability
 
+## Publications
+
+* **Beyond Consensus: Downward Bias and Role Asymmetry in Multi-Agent LLM Judges for Subjective Evaluation**<br>
+  [<u>Minsoo Song</u>](https://openreview.net/profile?id=~Minsoo_Song2), [Chanwoo Kim](https://openreview.net/profile?id=~Chanwoo_Kim12), [Sugyeong Eo](https://openreview.net/profile?id=~Sugyeong_Eo1), [Chanjun Park](https://openreview.net/profile?id=~Chanjun_Park1)<br>
+  *Findings of EMNLP 2026*, published August 21, 2026.
+
+* **Auditing MCQA Benchmarks through Probability Landscapes**<br>
+  [<u>Minsoo Song</u>](https://openreview.net/profile?id=~Minsoo_Song2), [Chanjun Park](https://openreview.net/profile?id=~Chanjun_Park1)<br>
+  *EMNLP 2026 Main Conference*, published August 21, 2026.
+
 ## Education
 
 * **2027.03 - 2028.08 (Expected)**: M.S. in <a href="https://sw.ssu.ac.kr/">Software</a>, Soongsil University (Advisor: <a href="https://parkchanjun.github.io/">Prof. Chanjun Park</a>) <a class="affiliation-logo-link" href="https://ssu.ac.kr/" aria-label="Visit the Soongsil University website"><img class="affiliation-logo" src="images/soongsil.png" alt="Soongsil University logo"></a><br>
