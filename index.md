@@ -5,7 +5,7 @@ layout: default
 ## Biography
 
 <img class="profile-picture" src="images/face.png" alt="Minsoo Song">
-<a href="https://www.linkedin.com/in/minsoo-song-62a3b9230/">Minsoo Song</a> is a M.S. student in the School of <a href="https://sw.ssu.ac.kr/">Software</a> at Soongsil University. He is currently conducting research at the <a href="https://sites.google.com/view/ssu-nlp/home">Natural Language Processing Lab</a>. His research interests include natural language processing (NLP) and large language models (LLMs), with a particular focus on how such models should be evaluated and how their behavior can be aligned with human intent and preferences. His current research explores evaluation methodology, human alignment, and the interpretability of large language models. For more details, please see his <a href="./Minsoo_Song_CV.pdf">CV</a>.
+<a href="https://www.linkedin.com/in/minsoo-song-448380370">Minsoo Song</a> is a M.S. student in the School of <a href="https://sw.ssu.ac.kr/">Software</a> at Soongsil University. He is currently conducting research at the <a href="https://sites.google.com/view/ssu-nlp/home">Natural Language Processing Lab</a>. His research interests include natural language processing (NLP) and large language models (LLMs), with a particular focus on how such models should be evaluated and how their behavior can be aligned with human intent and preferences. His current research explores evaluation methodology, human alignment, and the interpretability of large language models. For more details, please see his <a href="./Minsoo_Song_CV.pdf">CV</a>.
 
 
 ## Research Interests
@@ -38,4 +38,4 @@ layout: default
 ## Additional Links
 
 * <a href="https://scholar.google.com/citations?user=G-G5t0AAAAAJ&hl=ko">Google Scholar</a>.
-* <a href="https://www.linkedin.com/in/minsoo-song-62a3b9230/">LinkedIn</a>.
+* <a href="https://www.linkedin.com/in/minsoo-song-448380370">LinkedIn</a>.
