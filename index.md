@@ -17,6 +17,10 @@ layout: default
 
 ## Publications
 
+* **Structured but Silent: Probing Capability Requirements in LLM Hidden States**<br>
+  Kyojun Choo, [<u>Minsoo Song</u>](https://openreview.net/profile?id=~Minsoo_Song2), Yunju Kang, [Chanjun Park](https://openreview.net/profile?id=~Chanjun_Park1)<br>
+  *Findings of AACL-IJCNLP 2026*.
+
 * **Beyond Consensus: Downward Bias and Role Asymmetry in Multi-Agent LLM Judges for Subjective Evaluation**<br>
   [<u>Minsoo Song</u>](https://openreview.net/profile?id=~Minsoo_Song2), [Chanwoo Kim](https://openreview.net/profile?id=~Chanwoo_Kim12), [Sugyeong Eo](https://openreview.net/profile?id=~Sugyeong_Eo1), [Chanjun Park](https://openreview.net/profile?id=~Chanjun_Park1)<br>
   *Findings of EMNLP 2026*, published August 21, 2026.

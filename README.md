@@ -1,70 +1,62 @@
-<<<<<<< HEAD
-# goldi1204.github.io
-=======
-# Resume template
+# ecoses042.github.io
 
-*A simple Jekyll + GitHub Pages powered resume template.*
+Personal academic homepage of **Minsoo Song** — M.S. student in the School of Software,
+Soongsil University, and a member of the [Natural Language Processing Lab](https://sites.google.com/view/ssu-nlp/home).
 
-![img](images/screenshot.png)
+**Live site:** <https://ecoses042.github.io>
 
-## Docs
+Built with [Jekyll](https://jekyllrb.com/) and served by GitHub Pages. The layout follows the
+[researcher](https://github.com/ankitsultana/researcher) theme; the repository was originally
+forked from [jglovier/resume-template](https://github.com/jglovier/resume-template).
 
-### Running locally
+## Repository layout
 
-To test locally, run the following in your terminal:
+Files that actually build the site:
 
-1. Clone repo locally
-1. `bundle install`
-2. `bundle exec jekyll serve`
-3. Open your browser to `localhost:4000`
+| Path | Purpose |
+| --- | --- |
+| `index.md` | The entire page content (Biography, Research Interests, Publications, Education, Work Experiences, Links) |
+| `_config.yml` | Site title/description/URL, top navigation, footer settings |
+| `_layouts/default.html` | The only layout in use — navbar, content slot, optional footer |
+| `css/main.scss` | Sass entry point; imports `_sass/_style.scss` |
+| `_sass/_style.scss` | Site styling; imports `vars`, `typography`, `tables` |
+| `images/` | Profile photo and affiliation logos |
+| `cv.tex` → `Minsoo_Song_CV.pdf` | LaTeX source and the compiled CV linked from the navbar |
+| `Gemfile`, `Dockerfile`, `.travis.yml` | Local build tooling |
 
-### Running locally with Docker
+Leftovers from the upstream template that are **not** referenced by any page:
+`_data/*.yml`, `_layouts/resume.html`, `_includes/*.html`,
+`_sass/_base.scss`, `_layout.scss`, `_mixins.scss`, `_normalize.scss`, `_resume.scss`,
+and the design sources in `_assets/`.
 
-To test locally with docker, run the following in your terminal after installing docker into your system:
+## Updating the site
 
-1. `docker image build -t resume-template .`
-2. `docker run --rm --name resume-template -v "$PWD":/home/app --network host resume-template`
+- **Content** (publications, education, experience, bio) → edit `index.md`.
+  It is Markdown with inline HTML for links, the profile picture, and affiliation logos.
+- **Navigation, site title, footer** → edit the `nav:` list and related keys in `_config.yml`.
+- **Styling** → edit `_sass/_style.scss`.
+- **CV** → edit `cv.tex`, compile it, and overwrite `Minsoo_Song_CV.pdf` at the repository root.
+  LaTeX build artifacts (`*.aux`, `*.log`, `*.out`, `*.synctex.gz`) are gitignored.
 
-### Customizing
+Pushing to `main` publishes the site through GitHub Pages.
 
-First you'll want to fork the repo to your own account. Then clone it locally and customize, or use the GitHub web editor to customize.
+## Running locally
 
-#### Options/configuration
+```bash
+bundle install
+bundle exec jekyll serve
+# open http://localhost:4000
+```
 
-Most of the basic customization will take place in the `/_config.yml` file. Here is a list of customizations available via `/_config.yml`:
+With Docker:
 
-[...write these out...]
-
-#### Editing content
-
-Most of the content configuration will take place in the `/_layouts/resume.html` file. Simply edit the markup there accordingly
-
-### Publishing to GitHub Pages for free
-
-[GitHub Pages](https://pages.github.com/) will host this for free with your GitHub account. Just make sure you're using a `gh-pages` branch, and the site will automatically be available at `yourusername.github.io/resume-template` (you can rename the repo to resume for your own use if you want it to be available at `yourusername.github.io/resume`). You can also add a CNAME if you want it to be available at a custom domain...
-
-### Configuring with your own domain name
-
-To setup your GH Pages site with a custom domain, [follow the instructions](https://help.github.com/articles/setting-up-a-custom-domain-with-github-pages/) on the GitHub Help site for that topic.
-
-### Themes
-
-Right now resume-template only has one theme. More are coming :soon: though. :heart:
-
-## Roadmap
-
-A feature roadmap is [available here](https://github.com/jglovier/resume-template/projects/1). If you features suggestions, please [open a new issue](https://github.com/jglovier/resume-template/issues/new).
-
-## Contributing
-
-If you spot a bug, or want to improve the code, or even make the dummy content better, you can do the following:
-
-1. [Open an issue](https://github.com/jglovier/resume-template/issues/new) describing the bug or feature idea
-2. Fork the project, make changes, and submit a pull request
+```bash
+docker image build -t homepage .
+docker run --rm --name homepage -v "$PWD":/home/app --network host homepage
+```
 
 ## License
 
-The code and styles are licensed under the MIT license. [See project license.](LICENSE) Obviously you should not use the content of this demo repo in your own resume. :wink:
-
-Disclaimer: Use of Lisa M. Simpson image and name used under [Fair Use](https://en.wikipedia.org/wiki/Fair_use) for educational purposes. Project license does not apply to use of this material.
->>>>>>> gh-pages
+Code and styles are MIT licensed — see [LICENSE](LICENSE) and
+[THIRD_PARTY_LICENSES.md](THIRD_PARTY_LICENSES.md).
+Site content (text, CV, photographs) is © Minsoo Song and is not covered by that license.
