@@ -18,3 +18,18 @@ nav:
 footer: false
 footer_url: "https://github.com/ankitsultana/researcher"
 footer_text: "Page design by Ankit Sultana"
+
+# Repo docs and build files that must not be rendered by Jekyll.
+# CLAUDE.md contains literal Liquid tags and breaks the Pages build if processed.
+exclude:
+  - CLAUDE.md
+  - README.md
+  - THIRD_PARTY_LICENSES.md
+  - LICENSE
+  - cv.tex
+  - Dockerfile
+  - Gemfile
+  - Gemfile.lock
+  - node_modules
+  - vendor
+  - _vendor
