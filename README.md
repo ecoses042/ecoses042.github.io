@@ -24,11 +24,6 @@ Files that actually build the site:
 | `cv.tex` → `Minsoo_Song_CV.pdf` | LaTeX source and the compiled CV linked from the navbar |
 | `Gemfile`, `Dockerfile`, `.travis.yml` | Local build tooling |
 
-Leftovers from the upstream template that are **not** referenced by any page:
-`_data/*.yml`, `_layouts/resume.html`, `_includes/*.html`,
-`_sass/_base.scss`, `_layout.scss`, `_mixins.scss`, `_normalize.scss`, `_resume.scss`,
-and the design sources in `_assets/`.
-
 ## Updating the site
 
 - **Content** (publications, education, experience, bio) → edit `index.md`.
