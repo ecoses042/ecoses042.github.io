@@ -17,7 +17,11 @@ layout: default
 
 ## Publications
 
+<hr>
+
 ### International Conferences
+
+<hr>
 
 * **Structured but Silent: Probing Capability Requirements in LLM Hidden States**<br>
   [Kyojun Choo](https://openreview.net/profile?id=%7EChooKyoJun1), [<u>Minsoo Song</u>](https://openreview.net/profile?id=~Minsoo_Song2), Yunju Kang, [Chanjun Park](https://openreview.net/profile?id=~Chanjun_Park1)<br>
@@ -35,6 +39,8 @@ layout: default
 
 ### Domestic Conferences
 
+<hr>
+
 * **오답의 의미적 타당성 제거를 통한 LLM 벤치마크 결함 문항 식별**<br>
   (Flagging Flawed Benchmark Items by Removing Semantic Plausibility of Distractors)<br>
   [<u>Minsoo Song</u>](https://openreview.net/profile?id=~Minsoo_Song2), Chanwoo Kim, Kyojun Choo, Eunseo Song, Giyoon Jang, Chailin Nam, Sihyeon Lee, Chanjun Park<br>
@@ -42,11 +48,17 @@ layout: default
 
 ## Patents
 
+<hr>
+
 ### International Patents
 
 <hr>
 
+<hr>
+
 ### Domestic Patents
+
+<hr>
 
 * **인공지능 모델 평가용 벤치마크를 분석하는 전자 장치 및 이의 동작 방법**<br>
   Chanjun Park, <u>Minsoo Song</u><br>
