@@ -17,6 +17,8 @@ layout: default
 
 ## Publications
 
+### International Conferences
+
 * **Structured but Silent: Probing Capability Requirements in LLM Hidden States**<br>
   [Kyojun Choo](https://openreview.net/profile?id=%7EChooKyoJun1), [<u>Minsoo Song</u>](https://openreview.net/profile?id=~Minsoo_Song2), Yunju Kang, [Chanjun Park](https://openreview.net/profile?id=~Chanjun_Park1)<br>
   *Findings of AACL-IJCNLP 2026*.
@@ -28,6 +30,13 @@ layout: default
 * **Auditing MCQA Benchmarks through Probability Landscapes**<br>
   [<u>Minsoo Song</u>](https://openreview.net/profile?id=~Minsoo_Song2), [Chanjun Park](https://openreview.net/profile?id=~Chanjun_Park1)<br>
   *EMNLP 2026 Main Conference*, published August 21, 2026.
+
+### Domestic Conferences
+
+* **오답의 의미적 타당성 제거를 통한 LLM 벤치마크 결함 문항 식별**<br>
+  (Flagging Flawed Benchmark Items by Removing Semantic Plausibility of Distractors)<br>
+  [<u>Minsoo Song</u>](https://openreview.net/profile?id=~Minsoo_Song2), Chanwoo Kim, Kyojun Choo, Eunseo Song, Giyoon Jang, Chailin Nam, Sihyeon Lee, Chanjun Park<br>
+  *HCLT 2026*. **Best Paper Award**
 
 ## Education
 
