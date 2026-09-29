@@ -17,8 +17,6 @@ layout: default
 
 ## Publications
 
-<hr>
-
 ### International Conferences
 
 <hr>
@@ -35,8 +33,6 @@ layout: default
   [<u>Minsoo Song</u>](https://openreview.net/profile?id=~Minsoo_Song2), [Chanjun Park](https://openreview.net/profile?id=~Chanjun_Park1)<br>
   *EMNLP 2026 Main Conference*, published August 21, 2026.
 
-<hr>
-
 ### Domestic Conferences
 
 <hr>
@@ -48,11 +44,7 @@ layout: default
 
 ## Patents
 
-<hr>
-
 ### International Patents
-
-<hr>
 
 <hr>
 
