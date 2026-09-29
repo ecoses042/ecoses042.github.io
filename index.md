@@ -31,12 +31,30 @@ layout: default
   [<u>Minsoo Song</u>](https://openreview.net/profile?id=~Minsoo_Song2), [Chanjun Park](https://openreview.net/profile?id=~Chanjun_Park1)<br>
   *EMNLP 2026 Main Conference*, published August 21, 2026.
 
+<hr>
+
 ### Domestic Conferences
 
 * **오답의 의미적 타당성 제거를 통한 LLM 벤치마크 결함 문항 식별**<br>
   (Flagging Flawed Benchmark Items by Removing Semantic Plausibility of Distractors)<br>
   [<u>Minsoo Song</u>](https://openreview.net/profile?id=~Minsoo_Song2), Chanwoo Kim, Kyojun Choo, Eunseo Song, Giyoon Jang, Chailin Nam, Sihyeon Lee, Chanjun Park<br>
   *HCLT 2026*. **Best Paper Award**
+
+## Patents
+
+### International Patents
+
+<hr>
+
+### Domestic Patents
+
+* **인공지능 모델 평가용 벤치마크를 분석하는 전자 장치 및 이의 동작 방법**<br>
+  Chanjun Park, <u>Minsoo Song</u><br>
+  *Korean Patent Application No. 10-2026-0144925*, filed August 4, 2026.
+
+* **인공지능 평가 프로토콜을 분석하는 전자 장치 및 이의 동작 방법**<br>
+  Chanjun Park, <u>Minsoo Song</u><br>
+  *Korean Patent Application No. 10-2026-0144924*, filed August 4, 2026.
 
 ## Education
 
