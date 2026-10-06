@@ -42,6 +42,26 @@ layout: default
   [<u>Minsoo Song</u>](https://openreview.net/profile?id=~Minsoo_Song2), Chanwoo Kim, Kyojun Choo, Eunseo Song, Giyoon Jang, Chailin Nam, Sihyeon Lee, Chanjun Park<br>
   *HCLT 2026*. **Best Paper Award**
 
+* **다중 에이전트 토론을 활용한 언어모델의 한국어 추론 오류 진단**<br>
+  (Diagnosing Korean Reasoning Errors in Language Models Using Multi-Agent Debate)<br>
+  Jiwoo Kum, [<u>Minsoo Song</u>](https://openreview.net/profile?id=~Minsoo_Song2), Chanwoo Kim, Sihyeon Lee, Doyun Kim, Chanjun Park<br>
+  *HCLT 2026*.
+
+* **행동적 타당성 감사를 통한 리더보드 강건성 분석 연구**<br>
+  (A Study on Leaderboard Robustness Analysis through Behavioral Validity Auditing)<br>
+  Kyojun Choo, [<u>Minsoo Song</u>](https://openreview.net/profile?id=~Minsoo_Song2), Seonghyeon Cho, Giyoon Jang, Chailin Nam, Chanjun Park<br>
+  *HCLT 2026*.
+
+* **대규모 언어 모델의 도구 호출에서의 이름 의존성 분석**<br>
+  (Name Dependence in Large Language Model Tool Calling)<br>
+  Chailin Nam, Seonghyeon Cho, Sihyeon Lee, Jiwoo Kum, [<u>Minsoo Song</u>](https://openreview.net/profile?id=~Minsoo_Song2), Eunseo Song, Chanjun Park<br>
+  *HCLT 2026*.
+
+* **한국어 LLM Judge는 의미를 보존하는가? 척도와 응답 순서에 대한 표현 불변성 분석**<br>
+  (Do LLM Judges Preserve Meaning in Korean Evaluation? An Analysis of Representational Invariance in Scale Direction and Response Order)<br>
+  Chanwoo Kim, Doyun Kim, [<u>Minsoo Song</u>](https://openreview.net/profile?id=~Minsoo_Song2), Sihyeon Lee, Jihun Song, Chanjun Park<br>
+  *HCLT 2026*.
+
 ## Patents
 
 ### International Patents
