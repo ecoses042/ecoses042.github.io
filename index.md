@@ -8,12 +8,16 @@ layout: default
 <a href="https://www.linkedin.com/in/minsoo-song-448380370">Minsoo Song</a> is a M.S. student in the School of <a href="https://sw.ssu.ac.kr/">Software</a> at Soongsil University. He is currently conducting research at the <a href="https://sites.google.com/view/ssu-nlp/home">Natural Language Processing Lab</a>. His research interests include natural language processing (NLP) and large language models (LLMs), with a particular focus on how such models should be evaluated and how their behavior can be aligned with human intent and preferences. His current research explores evaluation methodology, human alignment, and the interpretability of large language models. For more details, please see his <a href="./Minsoo_Song_CV.pdf">CV</a>.
 
 
+## Lifelong Research Objective
+
+His lifelong research objective is to make NLP **reliable** by **evaluating evaluation** itself. Benchmarks, leaderboards, and LLM judges are the instruments by which the field decides what language models can do, yet these instruments can themselves be flawed, biased, or fragile. He aims to audit and strengthen them, so that every claim about a model's capability rests on evidence that can be trusted.
+
 ## Research Interests
 
-* Large Language Models (LLMs)
-* LLM Evaluation
-* Human Alignment in LLMs
-* LLM Interpretability
+* **Evaluating Evaluation**: auditing benchmarks, leaderboards, and evaluation protocols
+* **LLM-as-a-Judge**: bias, robustness, and invariance of model-based evaluators
+* **Reliable NLP**: behavioral validity and robustness of LLM capabilities
+* **LLM Interpretability**: probing what models encode in their internal representations
 
 ## Publications
 
@@ -40,7 +44,7 @@ layout: default
 * **오답의 의미적 타당성 제거를 통한 LLM 벤치마크 결함 문항 식별**<br>
   (Flagging Flawed Benchmark Items by Removing Semantic Plausibility of Distractors)<br>
   [<u>Minsoo Song</u>](https://openreview.net/profile?id=~Minsoo_Song2), Chanwoo Kim, Kyojun Choo, Eunseo Song, Giyoon Jang, Chailin Nam, Sihyeon Lee, Chanjun Park<br>
-  *HCLT 2026*. **Best Paper Award**
+  *HCLT 2026*. **Outstanding Paper Award**
 
 * **다중 에이전트 토론을 활용한 언어모델의 한국어 추론 오류 진단**<br>
   (Diagnosing Korean Reasoning Errors in Language Models Using Multi-Agent Debate)<br>
@@ -61,6 +65,11 @@ layout: default
   (Do LLM Judges Preserve Meaning in Korean Evaluation? An Analysis of Representational Invariance in Scale Direction and Response Order)<br>
   Chanwoo Kim, Doyun Kim, [<u>Minsoo Song</u>](https://openreview.net/profile?id=~Minsoo_Song2), Sihyeon Lee, Jihun Song, Chanjun Park<br>
   *HCLT 2026*.
+
+## Awards
+
+* **Outstanding Paper Award**, HCLT 2026<br>
+  *오답의 의미적 타당성 제거를 통한 LLM 벤치마크 결함 문항 식별*
 
 ## Patents
 
@@ -89,6 +98,10 @@ layout: default
 ## Work Experiences
 
 * **2025.09 - Now**: <a href="https://sites.google.com/view/ssu-nlp/home">Natural Language Processing Lab</a>, Soongsil University, Research Assistant <a class="affiliation-logo-link" href="https://sites.google.com/view/ssu-nlp/home" aria-label="Visit the Soongsil University NLP Lab website"><img class="affiliation-logo" src="images/soongsil_nlp.png" alt="Soongsil University NLP Lab logo"></a><br>
+
+## External Activities
+
+* **2026.09**: SaRangAXConnect, AI Transformation (AX) Program, Teaching Assistant<br>
 
 ## Additional Links
 
